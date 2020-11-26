@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mycat:server SYSTEM "server.dtd">
+<mycat:server xmlns:mycat="http://io.mycat/">
+   
+
+   <!-- 读写都可用的用户 -->
+    <user name="root" defaultAccount="true">
+        <property name="password">Chenyingge_444</property>
+        <property name="schemas">mycat_testdb</property>
+    </user>
+
+    <!-- 只读用户 -->
+    <user name="user">
+        <property name="password">Chenyingge_444</property>
+        <property name="schemas">mycat_testdb</property>
+        <property name="readOnly">true</property>
+    </user>
+
+</mycat:server>
