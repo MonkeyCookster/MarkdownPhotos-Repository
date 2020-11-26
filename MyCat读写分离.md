@@ -2,19 +2,19 @@
 
 > [| MYCAT官方网站—开源分布式数据库中间件](http://www.mycat.org.cn/)
 
-![image-20201123200400596](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123200400596.png)
+![image-20201123200400596](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123200400596.png)
 
-![image-20201123200454433](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123200454433.png)
+![image-20201123200454433](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123200454433.png)
 
 ## 	安装mycat
 
-![image-20201123200904318](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123200904318.png)
+![image-20201123200904318](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123200904318.png)
 
 ```shell
 tar -zxvf Mycat-server-1.6.7.4-release-20200105164103-linux.tar.gz
 ```
 
-![image-20201123201339669](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123201339669.png)
+![image-20201123201339669](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123201339669.png)
 
 
 
@@ -24,11 +24,11 @@ cp -r mycat /usr/local
 
 
 
-![image-20201123201836591](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123201836591.png)
+![image-20201123201836591](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123201836591.png)
 
 
 
-![image-20201123202458797](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123202458797.png)
+![image-20201123202458797](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123202458797.png)
 
 ```shell 
 cd  /usr/local/mycat/conf
@@ -38,7 +38,7 @@ cd  /usr/local/mycat/conf
 
 ll 查看conf里面的配置文件
 
-![image-20201123210054989](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123210054989.png)
+![image-20201123210054989](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123210054989.png)
 
 
 
@@ -140,7 +140,7 @@ mysql -uroot -pChenyingge_444 -h 192.168.133.131 -P 3306
 
 
 
-![image-20201123205146997](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123205146997.png)
+![image-20201123205146997](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123205146997.png)
 
 ```shell 
 mysql -uroot -pChenyingge_444 -h 192.168.133.130 -P 3306
@@ -148,7 +148,7 @@ mysql -uroot -pChenyingge_444 -h 192.168.133.130 -P 3306
 
 
 
-![image-20201123205410732](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123205410732.png)
+![image-20201123205410732](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123205410732.png)
 
 ```shell
 cd bin
@@ -156,7 +156,7 @@ cd bin
 
 
 
-![image-20201123205821410](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123205821410.png)
+![image-20201123205821410](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123205821410.png)
 
 ```shell
 ./mycat start
@@ -164,7 +164,7 @@ cd bin
 
 
 
-![image-20201123210313811](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123210313811.png)
+![image-20201123210313811](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123210313811.png)
 
 
 
@@ -174,7 +174,7 @@ cd bin
 mysql -uroot -pChenyingge_444 -P 9066 -h 192.168.133.128
 ```
 
-![image-20201123211622366](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123211622366.png)
+![image-20201123211622366](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123211622366.png)
 
 
 
@@ -186,7 +186,7 @@ mysql -uroot -pChenyingge_444 -P 8066 -h 192.168.133.128
 
 
 
-![image-20201123212643580](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123212643580.png)
+![image-20201123212643580](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123212643580.png)
 
 
 
@@ -198,7 +198,7 @@ use mycat_testdb
 
 
 
-![image-20201123230257464](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123230257464.png)
+![image-20201123230257464](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123230257464.png)
 
 查看表
 
@@ -208,7 +208,7 @@ select * from mytbl;
 
 
 
-![image-20201123230345931](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123230345931.png)
+![image-20201123230345931](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123230345931.png)
 
 修改表
 
@@ -218,7 +218,7 @@ insert into mytbl values(3,'wangwu');
 
 
 
-![image-20201123230623072](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201123230623072.png)
+![image-20201123230623072](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201123230623072.png)
 
 
 
@@ -236,11 +236,11 @@ insert into mytbl values(3,'wangwu');
 mysql -uroot -pChenyingge_444 -P 8066 -h 192.168.133.128
 ```
 
-![image-20201126181004138](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201126181004138.png)
+![image-20201126181004138](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201126181004138.png)
 
 查看表内情况
 
-![image-20201126181104702](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201126181104702.png)
+![image-20201126181104702](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201126181104702.png)
 
 ​                                                                                   可以读到之前root用户修改后的数据
 
@@ -254,7 +254,7 @@ insert into mytbl values(4,'xiaoming');
 
 
 
-![image-20201126182023688](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/typora-user-images/image-20201126182023688.png)
+![image-20201126182023688](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/tree/main/typora-user-images/image-20201126182023688.png)
 
 ​                                     报错user只有读权限
 
