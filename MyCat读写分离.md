@@ -2,7 +2,7 @@
 
 > [| MYCAT官方网站—开源分布式数据库中间件](http://www.mycat.org.cn/)
 
-![image-20201123200400596](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/blob/main/typora-user-images/image-20201123200400596.png)
+![image-20201123200400596](https://raw.githubusercontent.com/MonkeyCookster/MarkdownPhotos-Repository/main/typora-user-images/image-20201123200400596.png)
 
 ![image-20201123200454433](https://github.com/MonkeyCookster/MarkdownPhotos-Repository/raw/main/typora-user-images/image-20201123200454433.png)
 
